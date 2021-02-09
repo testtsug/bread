@@ -611,6 +611,15 @@ footer.shop_footer {
     width: 800px;
 }
 
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    transform: translate(5px,5px);
+    opacity: .8;
+}
+
 @media screen and (max-width: 480px) {
     .Form {
         margin-top: 40px;
