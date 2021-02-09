@@ -95,8 +95,10 @@ header p.top_caption {
 /*nav
 ------------------------------*/
 nav {
+    width: 20px;
     margin-top: 200px;
     z-index: 100;
+    position: relative;
 }
 
 nav.menu_nav {
@@ -587,7 +589,7 @@ footer.shop_footer {
     top: 0;
     text-align: center;
     overflow: hidden;
-    pointer-events: none;
+/*    pointer-events: none;*/
 }
 
 .contact_caption {
